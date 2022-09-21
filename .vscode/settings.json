@@ -1,4 +1,7 @@
 {
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintArgs": [
+        "--init-hook='import sys; sys.path.append(\"/home/codespace/.local/lib/python3.10/site-packages\")'"
+    ]
 }
