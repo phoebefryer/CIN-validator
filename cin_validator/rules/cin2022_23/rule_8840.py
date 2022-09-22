@@ -15,7 +15,7 @@ LAchildID = ChildIdentifiers.LAchildID
 # define characteristics of rule
 @rule_definition(
     # write the rule code here, in place of 8500
-    code=8500,
+    code=8840,
     # replace ChildIdentifiers with the value in the module column of the excel sheet corresponding to this rule .
     module=CINTable.ChildIdentifiers,
     # replace the message with the corresponding value for this rule, gotten from the excel sheet.
